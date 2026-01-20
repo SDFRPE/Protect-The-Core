@@ -1,0 +1,556 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&rTienda de objetos - Pagína 5/5'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: ''
+
+  # permissionView - MATERIAL NAME - DATA
+  permissionView:
+    ICON-VIEW: true
+    ICON-ITEM: 'SIGN'
+    DATA-VALUE: 0
+    DESCRIPTION:
+      - ''
+      - ' &a▸ &fYou currently do not have'
+      - ' &a▸ &fpermission to do this'
+      - ''
+1:
+  ACTION: 'buy: 75'
+  NAME: '&bRegeneración'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 8193
+  POSITION-X: 1
+  POSITION-Y: 1
+2:
+  ACTION: 'buy: 75'
+  NAME: '&bVelocidad'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 8194
+  POSITION-X: 2
+  POSITION-Y: 1
+3:
+  ACTION: 'buy: 75'
+  NAME: '&bResistencia la fuego'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 8195
+  POSITION-X: 3
+  POSITION-Y: 1
+4:
+  ACTION: 'buy: 75'
+  NAME: '&bCuración'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 8197
+  POSITION-X: 4
+  POSITION-Y: 1
+5:
+  ACTION: 'buy: 75'
+  NAME: '&bVisión nocturna'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 8198
+  POSITION-X: 5
+  POSITION-Y: 1
+6:
+  ACTION: 'buy: 75'
+  NAME: '&bFuerza'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 8201
+  POSITION-X: 6
+  POSITION-Y: 1
+7:
+  ACTION: 'buy: 75'
+  NAME: '&bDaño'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 8204
+  POSITION-X: 7
+  POSITION-Y: 1
+8:
+  ACTION: 'buy: 75'
+  NAME: '&bSalto'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 8203
+  POSITION-X: 8
+  POSITION-Y: 1
+9:
+  ACTION: 'buy: 75'
+  NAME: '&bRespiracion acuatica'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 8205
+  POSITION-X: 9
+  POSITION-Y: 1
+1II:
+  ACTION: 'buy: 150'
+  NAME: '&bRegeneración II'
+  DESCRIPTION:
+    - '&eCoins: 150'
+    - '&9Obtienes:'
+    - '&61x Regeneración II'
+  ICON-ITEM: 373
+  DATA-VALUE: 8225
+  POSITION-X: 1
+  POSITION-Y: 2
+2II:
+  ACTION: 'buy: 150'
+  NAME: '&bVelocidad II'
+  DESCRIPTION:
+    - '&eCoins: 150'
+    - '&9Obtienes:'
+    - '&61x Velocidad II'
+  ICON-ITEM: 373
+  DATA-VALUE: 8226
+  POSITION-X: 2
+  POSITION-Y: 2
+3II:
+  ACTION: 'buy: 150'
+  NAME: '&bResistencia la fuego II'
+  DESCRIPTION:
+    - '&eCoins: 150'
+    - '&9Obtienes:'
+    - '&61x Resistencia la fuego II'
+  ICON-ITEM: 373
+  DATA-VALUE: 8227
+  POSITION-X: 3
+  POSITION-Y: 2
+4II:
+  ACTION: 'buy: 150'
+  NAME: '&bCuración II'
+  DESCRIPTION:
+    - '&eCoins: 150'
+    - '&9Obtienes:'
+    - '&61x Curación II'
+  ICON-ITEM: 373
+  DATA-VALUE: 8229
+  POSITION-X: 4
+  POSITION-Y: 2
+5II:
+  ACTION: 'buy: 150'
+  NAME: '&bVisión nocturna II'
+  DESCRIPTION:
+    - '&eCoins: 150'
+    - '&9Obtienes:'
+    - '&61x Visión nocturna II'
+  ICON-ITEM: 373
+  DATA-VALUE: 8230
+  POSITION-X: 5
+  POSITION-Y: 2
+6II:
+  ACTION: 'buy: 150'
+  NAME: '&bFuerza II'
+  DESCRIPTION:
+    - '&eCoins: 150'
+    - '&9Obtienes:'
+    - '&61x Fuerza II'
+  ICON-ITEM: 373
+  DATA-VALUE: 8233
+  POSITION-X: 6
+  POSITION-Y: 2
+7II:
+  ACTION: 'buy: 150'
+  NAME: '&bDaño II'
+  DESCRIPTION:
+    - '&eCoins: 150'
+    - '&9Obtienes:'
+    - '&61x Daño II'
+  ICON-ITEM: 373
+  DATA-VALUE: 8236
+  POSITION-X: 7
+  POSITION-Y: 2
+8II:
+  ACTION: 'buy: 150'
+  NAME: '&bSalto II'
+  DESCRIPTION:
+    - '&eCoins: 150'
+    - '&9Obtienes:'
+    - '&61x Salto II'
+  ICON-ITEM: 373
+  DATA-VALUE: 8235
+  POSITION-X: 8
+  POSITION-Y: 2
+9II:
+  ACTION: 'buy: 75'
+  NAME: '&bRespiracion acuatica II'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Respiracion acuatica II'
+  ICON-ITEM: 373
+  DATA-VALUE: 8237
+  POSITION-X: 9
+  POSITION-Y: 2
+SPLASH_1:
+  ACTION: 'buy: 75'
+  NAME: '&bRegeneración'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 16385
+  POSITION-X: 1
+  POSITION-Y: 3
+SPLASH_2:
+  ACTION: 'buy: 75'
+  NAME: '&bVelocidad'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 16386
+  POSITION-X: 2
+  POSITION-Y: 3
+SPLASH_3:
+  ACTION: 'buy: 100'
+  NAME: '&bResistencia la fuego'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 16387
+  POSITION-X: 3
+  POSITION-Y: 3
+SPLASH_4:
+  ACTION: 'buy: 100'
+  NAME: '&bCuración'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 16389
+  POSITION-X: 4
+  POSITION-Y: 3
+SPLASH_5:
+  ACTION: 'buy: 100'
+  NAME: '&bVisión nocturna'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 16390
+  POSITION-X: 5
+  POSITION-Y: 3
+SPLASH_6:
+  ACTION: 'buy: 75'
+  NAME: '&bFuerza'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 16393
+  POSITION-X: 6
+  POSITION-Y: 3
+SPLASH_7:
+  ACTION: 'buy: 100'
+  NAME: '&bDaño'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 16396
+  POSITION-X: 7
+  POSITION-Y: 3
+SPLASH_8:
+  ACTION: 'buy: 100'
+  NAME: '&bSalto'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 16395
+  POSITION-X: 8
+  POSITION-Y: 3
+SPLASH_9:
+  ACTION: 'buy: 100'
+  NAME: '&bRespiracion acuatica'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Regeneración'
+  ICON-ITEM: 373
+  DATA-VALUE: 16397
+  POSITION-X: 9
+  POSITION-Y: 3
+SPLASH_1II:
+  ACTION: 'buy: 100'
+  NAME: '&bRegeneración II'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Regeneración II'
+  ICON-ITEM: 373
+  DATA-VALUE: 16417
+  POSITION-X: 1
+  POSITION-Y: 4
+SPLASH_2II:
+  ACTION: 'buy: 200'
+  NAME: '&bVelocidad II'
+  DESCRIPTION:
+    - '&eCoins: 200'
+    - '&9Obtienes:'
+    - '&61x Velocidad II'
+  ICON-ITEM: 373
+  DATA-VALUE: 16418
+  POSITION-X: 2
+  POSITION-Y: 4
+SPLASH_3II:
+  ACTION: 'buy: 200'
+  NAME: '&bResistencia la fuego II'
+  DESCRIPTION:
+    - '&eCoins: 200'
+    - '&9Obtienes:'
+    - '&61x Resistencia la fuego II'
+  ICON-ITEM: 373
+  DATA-VALUE: 16419
+  POSITION-X: 3
+  POSITION-Y: 4
+SPLASH_4II:
+  ACTION: 'buy: 200'
+  NAME: '&bCuración II'
+  DESCRIPTION:
+    - '&eCoins: 200'
+    - '&9Obtienes:'
+    - '&61x Curación II'
+  ICON-ITEM: 373
+  DATA-VALUE: 16421
+  POSITION-X: 4
+  POSITION-Y: 4
+SPLASH_5II:
+  ACTION: 'buy: 200'
+  NAME: '&bVisión nocturna II'
+  DESCRIPTION:
+    - '&eCoins: 200'
+    - '&9Obtienes:'
+    - '&61x Visión nocturna II'
+  ICON-ITEM: 373
+  DATA-VALUE: 16422
+  POSITION-X: 5
+  POSITION-Y: 4
+SPLASH_6II:
+  ACTION: 'buy: 200'
+  NAME: '&bFuerza II'
+  DESCRIPTION:
+    - '&eCoins: 200'
+    - '&9Obtienes:'
+    - '&61x Fuerza II'
+  ICON-ITEM: 373
+  DATA-VALUE: 16425
+  POSITION-X: 6
+  POSITION-Y: 4
+SPLASH_7II:
+  ACTION: 'buy: 200'
+  NAME: '&bDaño II'
+  DESCRIPTION:
+    - '&eCoins: 200'
+    - '&9Obtienes:'
+    - '&61x Daño II'
+  ICON-ITEM: 373
+  DATA-VALUE: 16428
+  POSITION-X: 7
+  POSITION-Y: 4
+SPLASH_8II:
+  ACTION: 'buy: 200'
+  NAME: '&bSalto II'
+  DESCRIPTION:
+    - '&eCoins: 200'
+    - '&9Obtienes:'
+    - '&61x Salto II'
+  ICON-ITEM: 373
+  DATA-VALUE: 16427
+  POSITION-X: 8
+  POSITION-Y: 4
+SPLASH_9II:
+  ACTION: 'buy: 200'
+  NAME: '&bRespiracion acuatica II'
+  DESCRIPTION:
+    - '&eCoins: 200'
+    - '&9Obtienes:'
+    - '&61x Respiracion acuatica II'
+  ICON-ITEM: 373
+  DATA-VALUE: 16429
+  POSITION-X: 9
+  POSITION-Y: 4
+lanzable_de_veneno:
+  ACTION: 'buy: 100'
+  NAME: '&bLanzable de veneno'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Lanzable de veneno'
+  ICON-ITEM: 373
+  DATA-VALUE: 16388
+  POSITION-X: 1
+  POSITION-Y: 5
+lanzable_de_venenoII:
+  ACTION: 'buy: 100'
+  NAME: '&bLanzable de veneno II'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Lanzable de veneno'
+  ICON-ITEM: 373
+  DATA-VALUE: 16420
+  POSITION-X: 2
+  POSITION-Y: 5
+lanzable_de_debilidad:
+  ACTION: 'buy: 100'
+  NAME: '&bLanzable de debilidad'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Lanzable de debilidad'
+  ICON-ITEM: 373
+  DATA-VALUE: 16392
+  POSITION-X: 3
+  POSITION-Y: 5
+lanzable_de_debilidad_extendida:
+  ACTION: 'buy: 100'
+  NAME: '&bLanzable de debilidad extendida'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Lanzable de debilidad extendida'
+  ICON-ITEM: 373
+  DATA-VALUE: 16424
+  POSITION-X: 4
+  POSITION-Y: 5
+lanzable_de_lentitud:
+  ACTION: 'buy: 100'
+  NAME: '&bLanzable de lentitud'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Lanzable de lentitud'
+  ICON-ITEM: 373
+  DATA-VALUE: 16394
+  POSITION-X: 5
+  POSITION-Y: 5
+lanzable_de_lentitud_extendida:
+  ACTION: 'buy: 100'
+  NAME: '&bLanzable de lentitud extendida'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Lanzable de lentitud extendida'
+  ICON-ITEM: 373
+  DATA-VALUE: 16426
+  POSITION-X: 6
+  POSITION-Y: 5
+
+primera:
+  ACTION: 'open: tienda_de_objetos_1.yml'
+  NAME: '&cPrimera'
+  ICON-ITEM: 160
+  DATA-VALUE: 14
+  POSITION-X: 1
+  POSITION-Y: 6
+anterior:
+  ACTION: 'open: tienda_de_objetos_4.yml'
+  NAME: '&9Anterior'
+  ICON-ITEM: 160
+  DATA-VALUE: 9
+  POSITION-X: 2
+  POSITION-Y: 6
+
+nada:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 3
+  POSITION-Y: 6
+nada2:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 4
+  POSITION-Y: 6
+nada3:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 5
+  POSITION-Y: 6
+nada4:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 6
+  POSITION-Y: 6
+nada5:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 7
+  POSITION-Y: 6
+
+
+siguiente:
+  ACTION: 'open: tienda.yml'
+  NAME: '&9Siguiente'
+  ICON-ITEM: 160
+  DATA-VALUE: 9
+  POSITION-X: 8
+  POSITION-Y: 6
+ultima:
+  ACTION: ''
+  NAME: '&cUltima'
+  ICON-ITEM: 160
+  DATA-VALUE: 14
+  POSITION-X: 9
+  POSITION-Y: 6

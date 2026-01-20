@@ -1,0 +1,445 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&rTienda de encantamientos'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: ''
+
+  # permissionView - MATERIAL NAME - DATA
+  permissionView:
+    ICON-VIEW: true
+    ICON-ITEM: 'SIGN'
+    DATA-VALUE: 0
+    DESCRIPTION:
+      - ''
+      - ' &a▸ &fYou currently do not have'
+      - ' &a▸ &fpermission to do this'
+      - ''
+filo:
+  ACTION: 'enchant: 100'
+  NAME: '&5Filo'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - '&9Poder especial:'
+    - '&6TNT'
+    - ''
+    - '&bSólamente diamante'
+    - '&bEl poder se usa a partir del nivel IV'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'sharpness:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 1
+  POSITION-Y: 1
+Golpeo:
+  ACTION: 'enchant: 100'
+  NAME: '&5Golpeo'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - '&9Poder especial:'
+    - '&6Hombres cerdos guardianes'
+    - ''
+    - '&bSólamente diamante'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'smite:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 1
+artropodos:
+  ACTION: 'enchant: 100'
+  NAME: '&5Perdición de los artrópodos'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - '&9Poder especial:'
+    - '&6Arañas guardianas'
+    - ''
+    - '&bSólamente diamante'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'baneofarthropods:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 1
+empuje:
+  ACTION: 'enchant: 250'
+  NAME: '&5Empuje'
+  DESCRIPTION:
+    - '&eCoins: 250'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - '&9Poder especial:'
+    - '&6Bolas de nieve'
+    - ''
+    - '&bSólamente diamante'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'knockback:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 1
+saqueo:
+  ACTION: 'enchant: 166'
+  NAME: '&5Saqueo'
+  DESCRIPTION:
+    - '&eCoins: 166'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - '&9Poder especial:'
+    - '&6Robar objeto aleatorio'
+    - ''
+    - '&bSólamente diamante'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'looting:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 1
+power:
+  ACTION: 'enchant: 100'
+  NAME: '&5Poder (arco)'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - '&9Poder especial:'
+    - '&6Rayos'
+    - ''
+    - '&bSólamente diamante'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'power:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 1
+punch:
+  ACTION: 'enchant: 250'
+  NAME: '&5Retroceso (arco)'
+  DESCRIPTION:
+    - '&eCoins: 250'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - '&9Poder especial:'
+    - '&6Conejo asesino'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'punch:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 1
+flame:
+  ACTION: 'enchant: 500'
+  NAME: '&5Fuego (arco)'
+  DESCRIPTION:
+    - '&eCoins: 500'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'flame:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 1
+infinidad:
+  ACTION: 'enchant: 500'
+  NAME: '&5Infinidad (arco)'
+  DESCRIPTION:
+    - '&eCoins: 500'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'infinity:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 2
+proteccion:
+  ACTION: 'enchant: 125'
+  NAME: '&5Protección'
+  DESCRIPTION:
+    - '&eCoins: 125'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'protection:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 1
+  POSITION-Y: 3
+fire_proteccion:
+  ACTION: 'enchant: 125'
+  NAME: '&5Protección al fuego'
+  DESCRIPTION:
+    - '&eCoins: 125'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'fireprotection:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 3
+caida_pluma:
+  ACTION: 'enchant: 125'
+  NAME: '&5Caída de pluma'
+  DESCRIPTION:
+    - '&eCoins: 125'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'featherfalling:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 3
+explosiones:
+  ACTION: 'enchant: 125'
+  NAME: '&5Protección contra explosiones'
+  DESCRIPTION:
+    - '&eCoins: 125'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'blastprotection:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 3
+proyectiles:
+  ACTION: 'enchant: 125'
+  NAME: '&5Protección contra proyectiles'
+  DESCRIPTION:
+    - '&eCoins: 125'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'projectileprotection:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 3
+oxigeno:
+  ACTION: 'enchant: 166'
+  NAME: '&5Oxígeno'
+  DESCRIPTION:
+    - '&eCoins: 166'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'respiration:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 3
+afinidad_acuatica:
+  ACTION: 'enchant: 500'
+  NAME: '&5Afinidad acuática'
+  DESCRIPTION:
+    - '&eCoins: 500'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'respiration:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 3
+espinas:
+  ACTION: 'enchant: 166'
+  NAME: '&5Espinas'
+  DESCRIPTION:
+    - '&eCoins: 166'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'thorns:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 3
+agilidad_acuatica:
+  ACTION: 'enchant: 166'
+  NAME: '&5Agilidad acuática'
+  DESCRIPTION:
+    - '&eCoins: 166'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'depthstrider:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 3
+eficiencia:
+  ACTION: 'enchant: 100'
+  NAME: '&5Eficiencia'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'efficiency:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 4
+silktouch:
+  ACTION: 'enchant: 500'
+  NAME: '&5Toque de seda'
+  DESCRIPTION:
+    - '&eCoins: 500'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'silktouch:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 4
+irrompibilidad:
+  ACTION: 'enchant: 166'
+  NAME: '&5Irrompibilidad'
+  DESCRIPTION:
+    - '&eCoins: 166'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'unbreaking:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 4
+suerte:
+  ACTION: 'enchant: 166'
+  NAME: '&5Suerte'
+  DESCRIPTION:
+    - '&eCoins: 166'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'fortune:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 4
+suerte_marina:
+  ACTION: 'enchant: 166'
+  NAME: '&5Suerte marina'
+  DESCRIPTION:
+    - '&eCoins: 166'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'luck:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 4
+atraccion:
+  ACTION: 'enchant: 166'
+  NAME: '&5Atracción'
+  DESCRIPTION:
+    - '&eCoins: 166'
+    - ''
+    - '&a+1 nivel de encantamiento'
+    - ''
+    - 'Nota:'
+    - 'encanta el objeto en la mano'
+  ENCHANTMENTS:
+    - 'lure:1'
+  ICON-ITEM: 403
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 4

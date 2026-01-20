@@ -1,0 +1,128 @@
+name: PTC
+version: '${project.version}'
+main: sdfrpe.github.io.ptc.PTC
+api-version: '1.8'
+authors: [ ElDaysuu, SDFRPE(Daysu) ]
+description: Protect The Core Minigame.
+website: https://sdfrpe.com/
+depend: [PTCClans]
+softdepend: [PlaceholderAPI, LuckPerms]
+commands:
+  ptc:
+    aliases: [ 'protectthecore','ptcore' ]
+    permission: 'ptc.admin'
+    description: 'Main command for the Protect The Core mini game.'
+  admin:
+    aliases: [ 'ptcadmin' ]
+    permission: 'ptc.admin'
+    description: 'Main command for the Protect The Core mini game.'
+  msg:
+    aliases: [ 'message', 'whisper', 'tell', 'w' ]
+    description: 'Envía un mensaje privado a otro jugador.'
+    usage: '/msg <jugador> <mensaje>'
+  coins:
+    aliases: [ 'coin', 'money', 'balance', 'bal' ]
+    description: 'Gestiona las coins de los jugadores.'
+    usage: '/coins [jugador] [set/add/remove/reset] [cantidad]'
+  feed:
+    aliases: [ 'comida' ]
+    description: 'Recupera tu hambre al máximo.'
+    usage: '/feed'
+    permission: 'ptc.feed'
+  tienda:
+    aliases: [ 'shop' ]
+    description: 'Abre la tienda de items.'
+    usage: '/tienda'
+    permission: 'ptc.shop'
+  encantar:
+    aliases: [ 'enchant', 'encantamientos' ]
+    description: 'Abre el menú de encantamientos.'
+    usage: '/encantar'
+    permission: 'ptc.enchant'
+  mochila:
+    aliases: [ 'echest', 'enderchest' ]
+    description: 'Abre tu ender chest.'
+    usage: '/mochila'
+    permission: 'ptc.echest'
+  mesa:
+    aliases: [ 'craft', 'workbench' ]
+    description: 'Abre una mesa de crafteo portátil.'
+    usage: '/mesa'
+    permission: 'ptc.craft'
+  kill:
+    aliases: [ 'suicide', 'suicidio' ]
+    description: 'Te suicidas.'
+    usage: '/kill'
+  salir:
+    aliases: [ 'leave', 'lobby', 'hub' ]
+    description: 'Regresa al servidor lobby.'
+    usage: '/salir'
+  team:
+    aliases: [ 'equipo', 'teams' ]
+    description: 'Gestiona los equipos de los jugadores.'
+    usage: '/team set <jugador> <equipo>'
+    permission: 'ptc.team.set'
+  arenas:
+    aliases: [ 'arena', 'selector' ]
+    description: 'Abre el selector de arenas (solo en lobby mode).'
+    usage: '/arenas'
+    permission: 'ptc.arenas'
+  cwarenas:
+    aliases: [ 'cwarena', 'cwselector' ]
+    description: 'Abre el selector de arenas de Clan War.'
+    usage: '/cwarenas'
+    permission: 'ptc.cwarenas'
+  multiplier:
+    aliases: [ 'multi', 'mult' ]
+    description: 'Gestiona los multiplicadores de coins.'
+    usage: '/multiplier <set/remove/check> [jugador] [valor]'
+    permission: 'ptc.multiplier'
+  jugar:
+    aliases: [ 'play', 'join' ]
+    description: 'Unirte a un equipo activo durante una partida'
+    usage: '/jugar'
+  playtime:
+    aliases: [ 'tiempo', 'jugado', 'tiempodejuego' ]
+    description: 'Ver el tiempo de juego de un jugador.'
+    usage: '/playtime [jugador]'
+
+permissions:
+  ptc.admin:
+    description: 'Acceso completo a comandos de administración'
+    default: op
+  ptc.joiningame:
+    description: 'Unirse como JUGADOR durante partidas en curso'
+    default: false
+  ptc.joinspectator:
+    description: 'Unirse como ESPECTADOR durante partidas en curso'
+    default: false
+  ptc.rejoin:
+    description: 'Reconectarse tras desconexión'
+    default: false
+  ptc.feed:
+    description: 'Usar comando /feed'
+    default: false
+  ptc.shop:
+    description: 'Usar comando /tienda'
+    default: false
+  ptc.enchant:
+    description: 'Usar comando /encantar'
+    default: false
+  ptc.echest:
+    description: 'Usar comando /mochila'
+    default: false
+  ptc.craft:
+    description: 'Usar comando /mesa'
+    default: true
+  ptc.team.set:
+    description: 'Cambiar equipos con /team'
+    default: op
+  ptc.arenas:
+    description: 'Usar comando /arenas'
+    default: true
+  ptc.cwarenas:
+    description: 'Usar comando /cwarenas'
+    default: op
+  ptc.multiplier:
+    description: 'Gestionar multiplicadores'
+    default: op
