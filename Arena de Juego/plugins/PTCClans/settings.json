@@ -1,0 +1,24 @@
+{
+  "databaseURL": "http://127.0.0.1:25611/ptc/",
+  "lobbyMode": false,
+  "clanWarMode": false,
+  "defaultWarServer": "CW-1",
+  "warServers": [
+    "CW-1"
+  ],
+  "warDurationMinutes": 60,
+  "productionMode": true,
+  "clanCreationCost": 10000,
+  "clanDeletionCost": 2000,
+  "invitationCost": 3000,
+  "maxClanMembers": 10,
+  "maxSimultaneousWars": 2,
+  "minTagLength": 2,
+  "maxTagLength": 5,
+  "minNameLength": 3,
+  "maxNameLength": 16,
+  "logging": {
+    "debugMode": false,
+    "enabledCategories": []
+  }
+}

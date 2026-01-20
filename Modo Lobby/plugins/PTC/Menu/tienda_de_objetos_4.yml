@@ -1,0 +1,515 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&rTienda de objetos - Pagína 4/5'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: ''
+
+  # permissionView - MATERIAL NAME - DATA
+  permissionView:
+    ICON-VIEW: true
+    ICON-ITEM: 'SIGN'
+    DATA-VALUE: 0
+    DESCRIPTION:
+      - ''
+      - ' &a▸ &fYou currently do not have'
+      - ' &a▸ &fpermission to do this'
+      - ''
+generador_de_creeper:
+  ACTION: 'buy: 100'
+  NAME: '&bGenerador de creeper'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Generador de creeper'
+  ICON-ITEM: 383
+  DATA-VALUE: 50
+  POSITION-X: 1
+  POSITION-Y: 1
+generador_de_esqueleto:
+  ACTION: 'buy: 5'
+  NAME: '&bGenerador de esqueleto'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Generador de esqueleto'
+  ICON-ITEM: 383
+  DATA-VALUE: 51
+  POSITION-X: 2
+  POSITION-Y: 1
+generador_de_araña:
+  ACTION: 'buy: 10'
+  NAME: '&bGenerador de araña'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Generador de araña'
+  ICON-ITEM: 383
+  DATA-VALUE: 52
+  POSITION-X: 3
+  POSITION-Y: 1
+generador_de_zombie:
+  ACTION: 'buy: 10'
+  NAME: '&bGenerador de zombie'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Generador de zombie'
+  ICON-ITEM: 383
+  DATA-VALUE: 54
+  POSITION-X: 4
+  POSITION-Y: 1
+generador_de_ghast:
+  ACTION: 'buy: 25'
+  NAME: '&bGenerador de ghast'
+  DESCRIPTION:
+    - '&eCoins: 25'
+    - '&9Obtienes:'
+    - '&61x Generador de ghast'
+  ICON-ITEM: 383
+  DATA-VALUE: 56
+  POSITION-X: 6
+  POSITION-Y: 1
+generador_de_hombre_cerdo:
+  ACTION: 'buy: 15'
+  NAME: '&bGenerador de hombre cerdo'
+  DESCRIPTION:
+    - '&eCoins: 15'
+    - '&9Obtienes:'
+    - '&61x Generador de hombre cerdo'
+  ICON-ITEM: 383
+  DATA-VALUE: 57
+  POSITION-X: 7
+  POSITION-Y: 1
+generador_de_enderman:
+  ACTION: 'buy: 15'
+  NAME: '&bGenerador de enderman'
+  DESCRIPTION:
+    - '&eCoins: 15'
+    - '&9Obtienes:'
+    - '&61x Generador de enderman'
+  ICON-ITEM: 383
+  DATA-VALUE: 58
+  POSITION-X: 8
+  POSITION-Y: 1
+generador_de_araña_de_cueva:
+  ACTION: 'buy: 15'
+  NAME: '&bGenerador de araña de cueva'
+  DESCRIPTION:
+    - '&eCoins: 15'
+    - '&9Obtienes:'
+    - '&61x Generador de araña de cueva'
+  ICON-ITEM: 383
+  DATA-VALUE: 59
+  POSITION-X: 9
+  POSITION-Y: 1
+generador_de_lepisma:
+  ACTION: 'buy: 5'
+  NAME: '&bGenerador de lepisma'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Generador de lepisma'
+  ICON-ITEM: 383
+  DATA-VALUE: 60
+  POSITION-X: 1
+  POSITION-Y: 2
+generador_de_blaze:
+  ACTION: 'buy: 5'
+  NAME: '&bGenerador de blaze'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Generador de blaze'
+  ICON-ITEM: 383
+  DATA-VALUE: 61
+  POSITION-X: 2
+  POSITION-Y: 2
+generador_de_cubo_de_magma:
+  ACTION: 'buy: 5'
+  NAME: '&bGenerador de cubo de magma'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Generador de cubo de magma'
+  ICON-ITEM: 383
+  DATA-VALUE: 62
+  POSITION-X: 3
+  POSITION-Y: 2
+generador_de_covid:
+  ACTION: 'buy: 5'
+  NAME: '&bGenerador de murciélago'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Generador de murciélago'
+  ICON-ITEM: 383
+  DATA-VALUE: 65
+  POSITION-X: 4
+  POSITION-Y: 2
+generador_de_bruja:
+  ACTION: 'buy: 20'
+  NAME: '&bGenerador de bruja'
+  DESCRIPTION:
+    - '&eCoins: 20'
+    - '&9Obtienes:'
+    - '&61x Generador de bruja'
+  ICON-ITEM: 383
+  DATA-VALUE: 66
+  POSITION-X: 5
+  POSITION-Y: 2
+generador_de_endermite:
+  ACTION: 'buy: 5'
+  NAME: '&bGenerador de endermite'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Generador de endermite'
+  ICON-ITEM: 383
+  DATA-VALUE: 67
+  POSITION-X: 6
+  POSITION-Y: 2
+generador_de_guardian:
+  ACTION: 'buy: 10'
+  NAME: '&bGenerador de guardián'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Generador de guardián'
+  ICON-ITEM: 383
+  DATA-VALUE: 68
+  POSITION-X: 7
+  POSITION-Y: 2
+generador_de_cerdo:
+  ACTION: 'buy: 10'
+  NAME: '&bGenerador de cerdo'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Generador de cerdo'
+  ICON-ITEM: 383
+  DATA-VALUE: 90
+  POSITION-X: 8
+  POSITION-Y: 2
+generador_de_oveja:
+  ACTION: 'buy: 10'
+  NAME: '&bGenerador de oveja'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Generador de oveja'
+  ICON-ITEM: 383
+  DATA-VALUE: 91
+  POSITION-X: 9
+  POSITION-Y: 2
+generador_de_vaca:
+  ACTION: 'buy: 5'
+  NAME: '&bGenerador de vaca'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Generador de vaca'
+  ICON-ITEM: 383
+  DATA-VALUE: 92
+  POSITION-X: 1
+  POSITION-Y: 3
+generador_de_gallina:
+  ACTION: 'buy: 5'
+  NAME: '&bGenerador de gallina'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Generador de gallina'
+  ICON-ITEM: 383
+  DATA-VALUE: 93
+  POSITION-X: 2
+  POSITION-Y: 3
+generador_de_calamar:
+  ACTION: 'buy: 5'
+  NAME: '&bGenerador de calamar'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Generador de calamar'
+  ICON-ITEM: 383
+  DATA-VALUE: 94
+  POSITION-X: 3
+  POSITION-Y: 3
+generador_de_lobo:
+  ACTION: 'buy: 25'
+  NAME: '&bGenerador de lobo'
+  DESCRIPTION:
+    - '&eCoins: 25'
+    - '&9Obtienes:'
+    - '&61x Generador de lobo'
+  ICON-ITEM: 383
+  DATA-VALUE: 95
+  POSITION-X: 4
+  POSITION-Y: 3
+generador_de_vacaseta:
+  ACTION: 'buy: 20'
+  NAME: '&bGenerador de vacaseta'
+  DESCRIPTION:
+    - '&eCoins: 20'
+    - '&9Obtienes:'
+    - '&61x Generador de vacaseta'
+  ICON-ITEM: 383
+  DATA-VALUE: 96
+  POSITION-X: 5
+  POSITION-Y: 3
+generador_de_ocelote:
+  ACTION: 'buy: 5'
+  NAME: '&bGenerador de ocelote'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Generador de ocelote'
+  ICON-ITEM: 383
+  DATA-VALUE: 98
+  POSITION-X: 6
+  POSITION-Y: 3
+generador_de_caballo:
+  ACTION: 'buy: 50'
+  NAME: '&bGenerador de caballo'
+  DESCRIPTION:
+    - '&eCoins: 50'
+    - '&9Obtienes:'
+    - '&61x Generador de caballo'
+  ICON-ITEM: 383
+  DATA-VALUE: 100
+  POSITION-X: 7
+  POSITION-Y: 3
+generador_de_conejo:
+  ACTION: 'buy: 5'
+  NAME: '&bGenerador de conejo'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Generador de conejo'
+  ICON-ITEM: 383
+  DATA-VALUE: 101
+  POSITION-X: 8
+  POSITION-Y: 3
+generador_de_aldeano:
+  ACTION: 'buy: 25'
+  NAME: '&bGenerador de aldeano'
+  DESCRIPTION:
+    - '&eCoins: 25'
+    - '&9Obtienes:'
+    - '&61x Generador de aldeano'
+  ICON-ITEM: 383
+  DATA-VALUE: 120
+  POSITION-X: 9
+  POSITION-Y: 3
+armadura_para_caballo_de_hierro:
+  ACTION: 'buy: 50'
+  NAME: '&bArmadura para caballo de hierro'
+  DESCRIPTION:
+    - '&eCoins: 50'
+    - '&9Obtienes:'
+    - '&61x Armadura para caballo de hierro'
+  ICON-ITEM: 417
+  DATA-VALUE: 0
+  POSITION-X: 1
+  POSITION-Y: 4
+armadura_para_caballo_de_oro:
+  ACTION: 'buy: 25'
+  NAME: '&bArmadura para caballo de oro'
+  DESCRIPTION:
+    - '&eCoins: 25'
+    - '&9Obtienes:'
+    - '&61x Armadura para caballo de oro'
+  ICON-ITEM: 418
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 4
+armadura_para_caballo_de_diamante:
+  ACTION: 'buy: 100'
+  NAME: '&bArmadura para caballo de diamante'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Armadura para caballo de diamante'
+  ICON-ITEM: 419
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 4
+soga:
+  ACTION: 'buy: 5'
+  NAME: '&bSoga'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Soga'
+  ICON-ITEM: 420
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 4
+silla_de_montar:
+  ACTION: 'buy: 10'
+  NAME: '&bSilla de montar'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Silla de montar'
+  ICON-ITEM: 329
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 4
+zanahoria_en_un_palo:
+  ACTION: 'buy: 5'
+  NAME: '&bZanahoria en un palo'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Zanahoria en un palo'
+  ICON-ITEM: 398
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 4
+bone:
+  ACTION: 'buy: 5'
+  NAME: '&bBone'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Bone'
+  ICON-ITEM: 352
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 4
+pescadp_crudo:
+  ACTION: 'buy: 10'
+  NAME: '&bPescado crudo'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Pescado crudo'
+  ICON-ITEM: 349
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 4
+trigo:
+  ACTION: 'buy: 10'
+  NAME: '&bTrigo'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&65x Trigo'
+  ICON-ITEM: 296
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 9
+  POSITION-Y: 4
+zanahoria:
+  ACTION: 'buy: 10'
+  NAME: '&bZanahoria'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&65x Zanahoria'
+  ICON-ITEM: 391
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 1
+  POSITION-Y: 5
+verruga_fel_nether:
+  ACTION: 'buy: 10'
+  NAME: '&bVerruga del nether'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&65x Verruga del nether'
+  ICON-ITEM: 372
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 2
+  POSITION-Y: 5
+etiqueta:
+  ACTION: 'buy: 5'
+  NAME: '&bEtiqueta'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Etiqueta'
+  ICON-ITEM: 421
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 5
+
+primera:
+  ACTION: 'open: tienda_de_objetos_1.yml'
+  NAME: '&cPrimera'
+  ICON-ITEM: 160
+  DATA-VALUE: 14
+  POSITION-X: 1
+  POSITION-Y: 6
+anterior:
+  ACTION: 'open: tienda_de_objetos_3.yml'
+  NAME: '&9Anterior'
+  ICON-ITEM: 160
+  DATA-VALUE: 9
+  POSITION-X: 2
+  POSITION-Y: 6
+
+nada:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 3
+  POSITION-Y: 6
+nada2:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 4
+  POSITION-Y: 6
+nada3:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 5
+  POSITION-Y: 6
+nada4:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 6
+  POSITION-Y: 6
+nada5:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 7
+  POSITION-Y: 6
+
+
+siguiente:
+  ACTION: 'open: tienda_de_objetos_5.yml'
+  NAME: '&9Suguiente'
+  ICON-ITEM: 160
+  DATA-VALUE: 9
+  POSITION-X: 8
+  POSITION-Y: 6
+ultima:
+  ACTION: 'open: tienda_de_objetos_5.yml'
+  NAME: '&cUltima'
+  ICON-ITEM: 160
+  DATA-VALUE: 14
+  POSITION-X: 9
+  POSITION-Y: 6

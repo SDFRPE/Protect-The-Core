@@ -1,0 +1,78 @@
+holograms:
+- location:
+    world: world
+    x: 25.457506970357407
+    y: 66.65393942313703
+    z: -24.500225721288206
+  id: top_kills_weekly_83bb3b2f
+  type: KILLS_WEEKLY
+- location:
+    world: world
+    x: 13.48904857732161
+    y: 66.65393942313703
+    z: -24.483781811156398
+  id: top_wins_weekly_82e5aa32
+  type: WINS_WEEKLY
+- location:
+    world: world
+    x: 9.514750177258378
+    y: 66.65393942313703
+    z: -22.49960102722044
+  id: top_domination_weekly_a455d6de
+  type: DOMINATION_WEEKLY
+- location:
+    world: world
+    x: 29.521121119690786
+    y: 66.65393942313703
+    z: -22.523556293547063
+  id: top_cores_weekly_0cd06f64
+  type: CORES_WEEKLY
+- location:
+    world: world
+    x: 20.48284565021924
+    y: 72.8192263541107
+    z: -71.48234054101671
+  id: top_clan_level_e1678987
+  type: CLAN_LEVEL
+- location:
+    world: world
+    x: 15.506344218002555
+    y: 72.8192263541107
+    z: -67.5178056877442
+  id: top_wins_alltime_49062a76
+  type: WINS_ALLTIME
+- location:
+    world: world
+    x: 24.506133986723125
+    y: 72.8192263541107
+    z: -67.51465022202437
+  id: top_best_killstreak_9e6942c9
+  type: BEST_KILLSTREAK
+- location:
+    world: world
+    x: 14.307133319671518
+    y: 72.8192263541107
+    z: -63.18563192509309
+  id: top_cores_alltime_c3cd2a9a
+  type: CORES_ALLTIME
+- location:
+    world: world
+    x: 25.500930850798238
+    y: 72.8192263541107
+    z: -63.47372994299275
+  id: top_kills_alltime_2e0abd3a
+  type: KILLS_ALLTIME
+- location:
+    world: world
+    x: 11.426762887287065
+    y: 64.86553035023944
+    z: -51.48481701904792
+  id: top_playtime_alltime_a038fe16
+  type: PLAYTIME_ALLTIME
+- location:
+    world: world
+    x: 27.490354316882087
+    y: 64.85625955986413
+    z: -51.503568228093066
+  id: top_playtime_weekly_29ea8dd3
+  type: PLAYTIME_WEEKLY

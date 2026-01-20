@@ -1,0 +1,21 @@
+# Lobby Inventory
+Lobby:
+  Vote:
+    item: 'compass:0'
+    slot: 0
+    name: '&aVotar'
+    lore: [ ]
+    action: 'voteMenu:none'
+  Teams:
+    item: 'leather_helmet:0'
+    slot: 1
+    name: '&bElegir Equipo'
+    need: 'ptc.vip'
+    lore: [ ]
+    action: 'teamsMenu:none'
+  Leave:
+    item: 'iron_door:0'
+    slot: 8
+    name: '&cSalir'
+    lore: [ ]
+    action: 'leave:none'

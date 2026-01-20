@@ -1,0 +1,113 @@
+{
+  "name": "BiomasHD",
+  "border_size": 0.0,
+  "duration": 72000,
+  "arenaLocations": {
+    "yellowSpawn": {
+      "world": "BiomasHD",
+      "x": 80.0,
+      "y": 70.0,
+      "z": 0.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "yellowCore": {
+      "world": "BiomasHD",
+      "x": 102.0,
+      "y": 75.0,
+      "z": 0.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueSpawn": {
+      "world": "BiomasHD",
+      "x": 0.0,
+      "y": 70.0,
+      "z": 80.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueCore": {
+      "world": "BiomasHD",
+      "x": 1.0,
+      "y": 75.0,
+      "z": 101.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redSpawn": {
+      "world": "BiomasHD",
+      "x": 0.0,
+      "y": 70.0,
+      "z": -80.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redCore": {
+      "world": "BiomasHD",
+      "x": 1.0,
+      "y": 75.0,
+      "z": -101.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenSpawn": {
+      "world": "BiomasHD",
+      "x": -80.0,
+      "y": 70.0,
+      "z": 0.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenCore": {
+      "world": "BiomasHD",
+      "x": -100.0,
+      "y": 75.0,
+      "z": 0.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "centerSpawn": {
+      "world": "BiomasHD",
+      "x": 0.0,
+      "y": 67.0,
+      "z": 0.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "pigsSpawn": [
+      {
+        "world": "BiomasHD",
+        "x": 125.0,
+        "y": 69.0,
+        "z": 1.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "BiomasHD",
+        "x": -1.0,
+        "y": 69.0,
+        "z": 125.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "BiomasHD",
+        "x": 1.0,
+        "y": 69.0,
+        "z": -125.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "BiomasHD",
+        "x": -125.0,
+        "y": 69.0,
+        "z": -1.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      }
+    ]
+  }
+}

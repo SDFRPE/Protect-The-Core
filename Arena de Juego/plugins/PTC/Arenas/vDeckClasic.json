@@ -1,0 +1,115 @@
+{
+  "name": "vDeckClasic",
+  "border_size": 0.0,
+  "duration": 72000,
+  "timeOfDay": "DAY",
+  "extraHearts": 0,
+  "arenaLocations": {
+    "yellowSpawn": {
+      "world": "vDeckClasic",
+      "x": 85.0,
+      "y": 39.0,
+      "z": 370.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "yellowCore": {
+      "world": "vDeckClasic",
+      "x": 134.0,
+      "y": 50.0,
+      "z": 370.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueSpawn": {
+      "world": "vDeckClasic",
+      "x": -17.0,
+      "y": 39.0,
+      "z": 472.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueCore": {
+      "world": "vDeckClasic",
+      "x": -17.0,
+      "y": 50.0,
+      "z": 521.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redSpawn": {
+      "world": "vDeckClasic",
+      "x": -17.0,
+      "y": 39.0,
+      "z": 268.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redCore": {
+      "world": "vDeckClasic",
+      "x": -17.0,
+      "y": 50.0,
+      "z": 219.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenSpawn": {
+      "world": "vDeckClasic",
+      "x": -119.0,
+      "y": 39.0,
+      "z": 370.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenCore": {
+      "world": "vDeckClasic",
+      "x": -168.0,
+      "y": 50.0,
+      "z": 370.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "centerSpawn": {
+      "world": "vDeckClasic",
+      "x": -17.0,
+      "y": 25.0,
+      "z": 370.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "pigsSpawn": [
+      {
+        "world": "vDeckClasic",
+        "x": 158.0,
+        "y": 50.0,
+        "z": 370.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "vDeckClasic",
+        "x": -17.0,
+        "y": 50.0,
+        "z": 545.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "vDeckClasic",
+        "x": -17.0,
+        "y": 50.0,
+        "z": 195.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "vDeckClasic",
+        "x": -192.0,
+        "y": 50.0,
+        "z": 370.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      }
+    ]
+  }
+}

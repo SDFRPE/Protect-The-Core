@@ -1,0 +1,113 @@
+{
+  "name": "FutureForest",
+  "border_size": 0.0,
+  "duration": 72000,
+  "arenaLocations": {
+    "yellowSpawn": {
+      "world": "FutureForest",
+      "x": 0.0,
+      "y": 67.0,
+      "z": -91.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "yellowCore": {
+      "world": "FutureForest",
+      "x": 0.0,
+      "y": 57.0,
+      "z": -101.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueSpawn": {
+      "world": "FutureForest",
+      "x": 91.0,
+      "y": 67.0,
+      "z": -1.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueCore": {
+      "world": "FutureForest",
+      "x": 101.0,
+      "y": 57.0,
+      "z": -1.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redSpawn": {
+      "world": "FutureForest",
+      "x": -90.0,
+      "y": 67.0,
+      "z": 0.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redCore": {
+      "world": "FutureForest",
+      "x": -100.0,
+      "y": 57.0,
+      "z": 0.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenSpawn": {
+      "world": "FutureForest",
+      "x": 1.0,
+      "y": 67.0,
+      "z": 90.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenCore": {
+      "world": "FutureForest",
+      "x": 1.0,
+      "y": 57.0,
+      "z": 100.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "centerSpawn": {
+      "world": "FutureForest",
+      "x": -2.0,
+      "y": 88.0,
+      "z": 0.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "pigsSpawn": [
+      {
+        "world": "FutureForest",
+        "x": 12.0,
+        "y": 67.0,
+        "z": -112.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "FutureForest",
+        "x": 113.0,
+        "y": 67.0,
+        "z": 11.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "FutureForest",
+        "x": -112.0,
+        "y": 67.0,
+        "z": -12.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "FutureForest",
+        "x": -11.0,
+        "y": 67.0,
+        "z": 112.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      }
+    ]
+  }
+}

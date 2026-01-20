@@ -1,0 +1,113 @@
+{
+  "name": "ClasicaPro",
+  "border_size": 0.0,
+  "duration": 72000,
+  "arenaLocations": {
+    "yellowSpawn": {
+      "world": "ClasicaPro",
+      "x": 188.0,
+      "y": 124.0,
+      "z": -84.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "yellowCore": {
+      "world": "ClasicaPro",
+      "x": 211.0,
+      "y": 125.0,
+      "z": -84.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueSpawn": {
+      "world": "ClasicaPro",
+      "x": 100.0,
+      "y": 124.0,
+      "z": 4.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueCore": {
+      "world": "ClasicaPro",
+      "x": 100.0,
+      "y": 125.0,
+      "z": 27.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redSpawn": {
+      "world": "ClasicaPro",
+      "x": 100.0,
+      "y": 124.0,
+      "z": -172.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redCore": {
+      "world": "ClasicaPro",
+      "x": 100.0,
+      "y": 125.0,
+      "z": -195.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenSpawn": {
+      "world": "ClasicaPro",
+      "x": 12.0,
+      "y": 124.0,
+      "z": -84.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenCore": {
+      "world": "ClasicaPro",
+      "x": -11.0,
+      "y": 125.0,
+      "z": -84.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "centerSpawn": {
+      "world": "ClasicaPro",
+      "x": 100.0,
+      "y": 124.0,
+      "z": -84.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "pigsSpawn": [
+      {
+        "world": "ClasicaPro",
+        "x": 235.0,
+        "y": 124.0,
+        "z": -84.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "ClasicaPro",
+        "x": 100.0,
+        "y": 124.0,
+        "z": 50.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "ClasicaPro",
+        "x": 100.0,
+        "y": 124.0,
+        "z": -218.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "ClasicaPro",
+        "x": -35.0,
+        "y": 124.0,
+        "z": -84.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "configuring": false,
+  "lobbyLocation": {
+    "world": "world",
+    "x": 19.51967718803638,
+    "y": 61.0,
+    "z": -12.493395599153356,
+    "pitch": -1.407447,
+    "yaw": 179.95496
+  },
+  "databaseURL": "http://127.0.0.1:25611/ptc/player/",
+  "serverName": "Lobby",
+  "lobbyServerName": "Lobby",
+  "lobbyMode": true,
+  "modeCW": false,
+  "clanWarStartTime": 0,
+  "coreProtectionRadius": 10.0,
+  "arenaPlayers": {
+    "maxPlayers": 40,
+    "minPlayers": 4
+  },
+  "arenaTeams": {
+    "coresPerTeam": 10,
+    "teamSize": 10
+  },
+  "logging": {
+    "debugMode": false,
+    "enabledCategories": []
+  }
+}

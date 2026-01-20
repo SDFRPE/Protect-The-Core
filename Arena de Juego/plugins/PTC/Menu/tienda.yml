@@ -1,0 +1,63 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&rTienda de objetos'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: ''
+
+  # permissionView - MATERIAL NAME - DATA
+  permissionView:
+    ICON-VIEW: true
+    ICON-ITEM: 'SIGN'
+    DATA-VALUE: 0
+    DESCRIPTION:
+      - ''
+      - ' &a▸ &fYou currently do not have'
+      - ' &a▸ &fpermission to do this'
+      - ''
+objetos:
+  ACTION: 'open: tienda_de_objetos_1.yml'
+  NAME: '&bObjetos'
+  ICON-ITEM: 130
+  DATA-VALUE: 0
+  POSITION-X: 1
+  POSITION-Y: 1
+encantamientos:
+  ACTION: 'open: encantamientos.yml'
+  NAME: '&bEncantamientos'
+  ICON-ITEM: 116
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 1
+destrucciones:
+  ACTION: 'addcores:100:5'
+  NAME: '&bAgregar destrucciones'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - ''
+    - 'Agrega 5 destrucciones a tu equipo'
+  ICON-ITEM: 57
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 1
+tiempo:
+  ACTION: 'addtime:100:300'
+  NAME: '&bAgregar tiempo'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - ''
+    - 'Agrega 5 minutos al tiempo restante'
+  ICON-ITEM: 347
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 1

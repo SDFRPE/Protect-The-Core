@@ -1,0 +1,538 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&rTienda de objetos - Pagína 1/5'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: ''
+
+  # permissionView - MATERIAL NAME - DATA
+  permissionView:
+    ICON-VIEW: true
+    ICON-ITEM: 'SIGN'
+    DATA-VALUE: 0
+    DESCRIPTION:
+      - ''
+      - ' &a▸ &fYou currently do not have'
+      - ' &a▸ &fpermission to do this'
+      - ''
+kit_de_hierro:
+  ACTION: 'kit: 300'
+  NAME: '&bKit de hierro'
+  KIT:
+    - 'iron_sword'
+    - 'iron_pickaxe'
+    - 'iron_spade'
+    - 'iron_axe'
+    - 'iron_helmet'
+    - 'iron_chestplate'
+    - 'iron_leggings'
+    - 'iron_boots'
+  DESCRIPTION:
+    - '&eCoins: 300'
+    - '&9Obtienes:'
+    - '&61x Espada de hierro'
+    - '&61x Pico de hierro'
+    - '&61x Hacha de hierro'
+    - '&61x Casco de hierro'
+    - '&61x Peto de hierro'
+    - '&61x Pantalones de hierro'
+    - '&61x Botas de hierro'
+  ICON-ITEM: 265
+  DATA-VALUE: 0
+  POSITION-X: 1
+  POSITION-Y: 1
+casco_hierro:
+  ACTION: 'buy: 75'
+  NAME: '&bCasco de hierro'
+  DESCRIPTION:
+    - '&eCoins: 75'
+    - '&9Obtienes:'
+    - '&61x Casco de hierro'
+  ICON-ITEM: 306
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 1
+peto_hierro:
+  ACTION: 'buy: 120'
+  NAME: '&bPeto de hierro'
+  DESCRIPTION:
+    - '&eCoins: 120'
+    - '&9Obtienes:'
+    - '&61x Peto de hierro'
+  ICON-ITEM: 307
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 1
+pantalones_hierro:
+  ACTION: 'buy: 105'
+  NAME: '&bPantalones de hierro'
+  DESCRIPTION:
+    - '&eCoins: 105'
+    - '&9Obtienes:'
+    - '&61x Pantalones de hierro'
+  ICON-ITEM: 308
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 1
+botas_hierro:
+  ACTION: 'buy: 60'
+  NAME: '&bBotas de hierro'
+  DESCRIPTION:
+    - '&eCoins: 60'
+    - '&9Obtienes:'
+    - '&61x Botas de hierro'
+  ICON-ITEM: 309
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 1
+espada_hierro:
+  ACTION: 'buy: 30'
+  NAME: '&bEspada de hierro'
+  DESCRIPTION:
+    - '&eCoins: 30'
+    - '&9Obtienes:'
+    - '&61x Espada de hierro'
+  ICON-ITEM: 267
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 1
+pico_hierro:
+  ACTION: 'buy: 45'
+  NAME: '&bPico de hierro'
+  DESCRIPTION:
+    - '&eCoins: 45'
+    - '&9Obtienes:'
+    - '&61x Pico de hierro'
+  ICON-ITEM: 257
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 1
+pala_hierro:
+  ACTION: 'buy: 45'
+  NAME: '&bPala de hierro'
+  DESCRIPTION:
+    - '&eCoins: 45'
+    - '&9Obtienes:'
+    - '&61x Pala de hierro'
+  ICON-ITEM: 256
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 1
+hacha_hierro:
+  ACTION: 'buy: 45'
+  NAME: '&bHacha de hierro'
+  DESCRIPTION:
+    - '&eCoins: 45'
+    - '&9Obtienes:'
+    - '&61x Hacha de hierro'
+  ICON-ITEM: 258
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 1
+kit_de_oro:
+  ACTION: 'kit: 100'
+  NAME: '&bKit de oro'
+  KIT:
+    - 'golden_sword'
+    - 'golden_pickaxe'
+    - 'golden_spade'
+    - 'golden_axe'
+    - 'golden_helmet'
+    - 'golden_chestplate'
+    - 'golden_leggings'
+    - 'golden_boots'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Espada de oro'
+    - '&61x Pico de oro'
+    - '&61x Hacha de oro'
+    - '&61x Casco de oro'
+    - '&61x Peto de oro'
+    - '&61x Pantalones de oro'
+    - '&61x Botas de oro'
+  ICON-ITEM: 266
+  DATA-VALUE: 0
+  POSITION-X: 1
+  POSITION-Y: 2
+casco_oro:
+  ACTION: 'buy: 25'
+  NAME: '&bCasco de oro'
+  DESCRIPTION:
+    - '&eCoins: 25'
+    - '&9Obtienes:'
+    - '&61x Casco de oro'
+  ICON-ITEM: 314
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 2
+peto_oro:
+  ACTION: 'buy: 40'
+  NAME: '&bPeto de oro'
+  DESCRIPTION:
+    - '&eCoins: 40'
+    - '&9Obtienes:'
+    - '&61x Peto de oro'
+  ICON-ITEM: 315
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 2
+pantalones_oro:
+  ACTION: 'buy: 35'
+  NAME: '&bPantalones de oro'
+  DESCRIPTION:
+    - '&eCoins: 35'
+    - '&9Obtienes:'
+    - '&61x Pantalones de oro'
+  ICON-ITEM: 316
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 2
+botas_oro:
+  ACTION: 'buy: 20'
+  NAME: '&bBotas de oro'
+  DESCRIPTION:
+    - '&eCoins: 20'
+    - '&9Obtienes:'
+    - '&61x Botas de oro'
+  ICON-ITEM: 317
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 2
+espada_oro:
+  ACTION: 'buy: 10'
+  NAME: '&bEspada de oro'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Espada de oro'
+  ICON-ITEM: 283
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 2
+pico_oro:
+  ACTION: 'buy: 15'
+  NAME: '&bPico de oro'
+  DESCRIPTION:
+    - '&eCoins: 15'
+    - '&9Obtienes:'
+    - '&61x Pico de oro'
+  ICON-ITEM: 285
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 2
+pala_oro:
+  ACTION: 'buy: 5'
+  NAME: '&bPala de oro'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Pala de oro'
+  ICON-ITEM: 284
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 2
+hacha_oro:
+  ACTION: 'buy: 15'
+  NAME: '&bHacha de oro'
+  DESCRIPTION:
+    - '&eCoins: 15'
+    - '&9Obtienes:'
+    - '&61x Hacha de oro'
+  ICON-ITEM: 286
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 2
+kit_de_diamante:
+  ACTION: 'kit: 500'
+  NAME: '&bKit de diamante'
+  KIT:
+    - 'diamond_sword'
+    - 'diamond_pickaxe'
+    - 'diamond_spade'
+    - 'diamond_axe'
+    - 'diamond_helmet'
+    - 'diamond_chestplate'
+    - 'diamond_leggings'
+    - 'diamond_boots'
+  DESCRIPTION:
+    - '&eCoins: 500'
+    - '&9Obtienes:'
+    - '&61x Espada de diamante'
+    - '&61x Pico de diamante'
+    - '&61x Hacha de diamante'
+    - '&61x Casco de diamante'
+    - '&61x Peto de diamante'
+    - '&61x Pantalones de diamante'
+    - '&61x Botas de diamante'
+  ICON-ITEM: 264
+  DATA-VALUE: 0
+  POSITION-X: 1
+  POSITION-Y: 3
+casco_diamante:
+  ACTION: 'buy: 100'
+  NAME: '&bCasco de diamante'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Casco de diamante'
+  ICON-ITEM: 310
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 3
+peto_diamante:
+  ACTION: 'buy: 120'
+  NAME: '&bPeto de diamante'
+  DESCRIPTION:
+    - '&eCoins: 120'
+    - '&9Obtienes:'
+    - '&61x Peto de diamante'
+  ICON-ITEM: 311
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 3
+pantalones_diamante:
+  ACTION: 'buy: 140'
+  NAME: '&bPantalones de diamante'
+  DESCRIPTION:
+    - '&eCoins: 140'
+    - '&9Obtienes:'
+    - '&61x Pantalones de diamante'
+  ICON-ITEM: 312
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 3
+botas_diamante:
+  ACTION: 'buy: 80'
+  NAME: '&bBotas de diamante'
+  DESCRIPTION:
+    - '&eCoins: 80'
+    - '&9Obtienes:'
+    - '&61x Botas de diamante'
+  ICON-ITEM: 313
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 3
+espada_diamante:
+  ACTION: 'buy: 40'
+  NAME: '&bEspada de diamante'
+  DESCRIPTION:
+    - '&eCoins: 40'
+    - '&9Obtienes:'
+    - '&61x Espada de diamante'
+  ICON-ITEM: 276
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 3
+pico_diamante:
+  ACTION: 'buy: 60'
+  NAME: '&bPico de diamante'
+  DESCRIPTION:
+    - '&eCoins: 60'
+    - '&9Obtienes:'
+    - '&61x Pico de diamante'
+  ICON-ITEM: 278
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 3
+pala_diamante:
+  ACTION: 'buy: 20'
+  NAME: '&bPala de diamante'
+  DESCRIPTION:
+    - '&eCoins: 20'
+    - '&9Obtienes:'
+    - '&61x Pala de diamante'
+  ICON-ITEM: 277
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 3
+hacha_diamante:
+  ACTION: 'buy: 60'
+  NAME: '&bHacha de diamante'
+  DESCRIPTION:
+    - '&eCoins: 60'
+    - '&9Obtienes:'
+    - '&61x Hacha de diamante'
+  ICON-ITEM: 279
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 3
+obsidiana:
+  ACTION: 'buy: 50'
+  NAME: '&bObsidiana'
+  DESCRIPTION:
+    - '&eCoins: 50'
+    - '&9Obtienes:'
+    - '&61x obsidiana'
+  ICON-ITEM: 49
+  DATA-VALUE: 0
+  POSITION-X: 1
+  POSITION-Y: 4
+xp:
+  ACTION: 'buy: 30'
+  NAME: '&bBotella de experiencia'
+  DESCRIPTION:
+    - '&eCoins: 30'
+    - '&9Obtienes:'
+    - '&664x Botella de experiencia'
+  ICON-ITEM: 384
+  DATA-VALUE: 0
+  ICON-AMOUNT: 64
+  POSITION-X: 2
+  POSITION-Y: 4
+arco:
+  ACTION: 'buy: 30'
+  NAME: '&bArco'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Arco'
+  ICON-ITEM: 261
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 4
+arrow:
+  ACTION: 'buy: 10'
+  NAME: '&bFlecha'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&610x Flecha'
+  ICON-ITEM: 262
+  DATA-VALUE: 0
+  ICON-AMOUNT: 10
+  POSITION-X: 4
+  POSITION-Y: 4
+pastel:
+  ACTION: 'buy: 20'
+  NAME: '&bPastel'
+  DESCRIPTION:
+    - '&eCoins: 20'
+    - '&9Obtienes:'
+    - '&61x Pastel'
+  ICON-ITEM: 354
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 4
+bistec:
+  ACTION: 'buy: 10'
+  NAME: '&bBistec'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&65x Bistec'
+  ICON-ITEM: 364
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 6
+  POSITION-Y: 4
+apple:
+  ACTION: 'buy: 100'
+  NAME: '&bManzana dorada'
+  DESCRIPTION:
+    - '&eCoins: 100'
+    - '&9Obtienes:'
+    - '&61x Manzana dorada'
+  ICON-ITEM: 322
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 4
+apple_echant:
+  ACTION: 'buy: 500'
+  NAME: '&bManzana dorada encantada'
+  DESCRIPTION:
+    - '&eCoins: 500'
+    - '&9Obtienes:'
+    - '&61x Manzana dorada encantada'
+  ICON-ITEM: 322
+  DATA-VALUE: 1
+  POSITION-X: 8
+  POSITION-Y: 4
+perla_ender:
+  ACTION: 'buy: 50'
+  NAME: '&bPerla ender'
+  DESCRIPTION:
+    - '&eCoins: 50'
+    - '&9Obtienes:'
+    - '&61x Perla ender'
+  ICON-ITEM: 368
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 4
+
+primera:
+  ACTION: 'open: tienda_de_objetos_1.yml'
+  NAME: '&cPrimera'
+  ICON-ITEM: 160
+  DATA-VALUE: 14
+  POSITION-X: 1
+  POSITION-Y: 6
+anterior:
+  ACTION: 'open: tienda.yml'
+  NAME: '&9Anterior'
+  ICON-ITEM: 160
+  DATA-VALUE: 9
+  POSITION-X: 2
+  POSITION-Y: 6
+
+nada:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 3
+  POSITION-Y: 6
+nada2:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 4
+  POSITION-Y: 6
+nada3:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 5
+  POSITION-Y: 6
+nada4:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 6
+  POSITION-Y: 6
+nada5:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 7
+  POSITION-Y: 6
+
+
+siguiente:
+  ACTION: 'open: tienda_de_objetos_2.yml'
+  NAME: '&9Suguiente'
+  ICON-ITEM: 160
+  DATA-VALUE: 9
+  POSITION-X: 8
+  POSITION-Y: 6
+ultima:
+  ACTION: 'open: tienda_de_objetos_5.yml'
+  NAME: '&cUltima'
+  ICON-ITEM: 160
+  DATA-VALUE: 14
+  POSITION-X: 9
+  POSITION-Y: 6

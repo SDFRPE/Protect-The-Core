@@ -1,0 +1,514 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&rTienda de objetos - Pagína 2/5'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: ''
+
+  # permissionView - MATERIAL NAME - DATA
+  permissionView:
+    ICON-VIEW: true
+    ICON-ITEM: 'SIGN'
+    DATA-VALUE: 0
+    DESCRIPTION:
+      - ''
+      - ' &a▸ &fYou currently do not have'
+      - ' &a▸ &fpermission to do this'
+      - ''
+medera_de_roble:
+  ACTION: 'buy: 10'
+  NAME: '&bMadera de roble'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&610x Madera de roble'
+  ICON-ITEM: 17
+  DATA-VALUE: 0
+  ICON-AMOUNT: 10
+  POSITION-X: 1
+  POSITION-Y: 1
+medera_de_abeto:
+  ACTION: 'buy: 10'
+  NAME: '&bMadera de abeto'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&610x Madera de abeto'
+  ICON-ITEM: 17
+  DATA-VALUE: 1
+  ICON-AMOUNT: 10
+  POSITION-X: 2
+  POSITION-Y: 1
+medera_de_abedul:
+  ACTION: 'buy: 10'
+  NAME: '&bMadera de abedul'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&610x Madera de abedul'
+  ICON-ITEM: 17
+  DATA-VALUE: 2
+  ICON-AMOUNT: 10
+  POSITION-X: 3
+  POSITION-Y: 1
+medera_de_jungla:
+  ACTION: 'buy: 10'
+  NAME: '&bMadera de jungla'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&610x Madera de jungla'
+  ICON-ITEM: 17
+  DATA-VALUE: 3
+  ICON-AMOUNT: 10
+  POSITION-X: 4
+  POSITION-Y: 1
+medera_de_acasia:
+  ACTION: 'buy: 10'
+  NAME: '&bMadera de acasia'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&610x Madera de acasia'
+  ICON-ITEM: 162
+  DATA-VALUE: 0
+  ICON-AMOUNT: 10
+  POSITION-X: 5
+  POSITION-Y: 1
+medera_de_roble_oscuro:
+  ACTION: 'buy: 10'
+  NAME: '&bMadera de roble oscuro'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&610x Madera de roble oscuro'
+  ICON-ITEM: 162
+  DATA-VALUE: 1
+  ICON-AMOUNT: 10
+  POSITION-X: 6
+  POSITION-Y: 1
+enredadera:
+  ACTION: 'buy: 5'
+  NAME: '&bEnredadera'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Enredadera'
+  ICON-ITEM: 106
+  DATA-VALUE: 0
+  ICON-AMOUNT: 10
+  POSITION-X: 7
+  POSITION-Y: 1
+tele_de_araña:
+  ACTION: 'buy: 10'
+  NAME: '&bTela de araña'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&610x Tela de araña'
+  ICON-ITEM: 30
+  DATA-VALUE: 0
+  ICON-AMOUNT: 10
+  POSITION-X: 8
+  POSITION-Y: 1
+mesa_de_encantamientos:
+  ACTION: 'buy: 25'
+  NAME: '&bMesa de encantamientos'
+  DESCRIPTION:
+    - '&eCoins: 25'
+    - '&9Obtienes:'
+    - '&610x Mesa de encantamientos'
+  ICON-ITEM: 116
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 1
+lana_roja:
+  ACTION: 'buy: 5'
+  NAME: '&bLana roja'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Lana roja'
+  ICON-ITEM: 35
+  DATA-VALUE: 14
+  ICON-AMOUNT: 10
+  POSITION-X: 1
+  POSITION-Y: 2
+lana_azul:
+  ACTION: 'buy: 5'
+  NAME: '&bLana azul'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Lana azul'
+  ICON-ITEM: 35
+  DATA-VALUE: 11
+  ICON-AMOUNT: 10
+  POSITION-X: 2
+  POSITION-Y: 2
+lana_verde:
+  ACTION: 'buy: 5'
+  NAME: '&bLana verde'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Lana verde'
+  ICON-ITEM: 35
+  DATA-VALUE: 5
+  ICON-AMOUNT: 10
+  POSITION-X: 3
+  POSITION-Y: 2
+lana_amarilla:
+  ACTION: 'buy: 5'
+  NAME: '&bLana amarilla'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Lana amarilla'
+  ICON-ITEM: 35
+  DATA-VALUE: 4
+  ICON-AMOUNT: 10
+  POSITION-X: 4
+  POSITION-Y: 2
+yunque:
+  ACTION: 'buy: 25'
+  NAME: '&bYunque'
+  DESCRIPTION:
+    - '&eCoins: 25'
+    - '&9Obtienes:'
+    - '&61x Yunque'
+  ICON-ITEM: 145
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 2
+estante_para_pociones:
+  ACTION: 'buy: 25'
+  NAME: '&bEstante para pociones'
+  DESCRIPTION:
+    - '&eCoins: 25'
+    - '&9Obtienes:'
+    - '&61x Estante para pociones'
+  ICON-ITEM: 379
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 2
+semilla_de_trigo:
+  ACTION: 'buy: 10'
+  NAME: '&bSemilla de trigo'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&632x Semillas de trigo'
+  ICON-ITEM: 295
+  DATA-VALUE: 0
+  ICON-AMOUNT: 32
+  POSITION-X: 7
+  POSITION-Y: 2
+cristal:
+  ACTION: 'buy: 15'
+  NAME: '&bCristal'
+  DESCRIPTION:
+    - '&eCoins: 15'
+    - '&9Obtienes:'
+    - '&63x Cristal'
+  ICON-ITEM: 20
+  DATA-VALUE: 0
+  ICON-AMOUNT: 3
+  POSITION-X: 8
+  POSITION-Y: 2
+cofre_ender:
+  ACTION: 'buy: 400'
+  NAME: '&bCofre ender'
+  DESCRIPTION:
+    - '&eCoins: 400'
+    - '&9Obtienes:'
+    - '&61x Cofre ender'
+  ICON-ITEM: 130
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 2
+piedra:
+  ACTION: 'buy: 5'
+  NAME: '&bPiedra'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Piedra'
+  ICON-ITEM: 1
+  DATA-VALUE: 0
+  ICON-AMOUNT: 10
+  POSITION-X: 1
+  POSITION-Y: 3
+roca:
+  ACTION: 'buy: 5'
+  NAME: '&bRoca'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Roca'
+  ICON-ITEM: 4
+  DATA-VALUE: 0
+  ICON-AMOUNT: 10
+  POSITION-X: 2
+  POSITION-Y: 3
+ladrillos_de_piedra:
+  ACTION: 'buy: 5'
+  NAME: '&bLadrillos de piedra'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Ladrillos de piedra'
+  ICON-ITEM: 98
+  DATA-VALUE: 0
+  ICON-AMOUNT: 10
+  POSITION-X: 3
+  POSITION-Y: 3
+piedra_de_piedra_musgosos:
+  ACTION: 'buy: 5'
+  NAME: '&bLadrillos de piedra musgosos'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Ladrillos de piedra musgosos'
+  ICON-ITEM: 98
+  DATA-VALUE: 1
+  ICON-AMOUNT: 10
+  POSITION-X: 4
+  POSITION-Y: 3
+ladrillos_de_piedra_agrietada:
+  ACTION: 'buy: 5'
+  NAME: '&bLadrillos de piedra agrietada'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Ladrillos de piedra agrietada'
+  ICON-ITEM: 98
+  DATA-VALUE: 2
+  ICON-AMOUNT: 10
+  POSITION-X: 5
+  POSITION-Y: 3
+ladrillos_de_piedra_cincelada:
+  ACTION: 'buy: 5'
+  NAME: '&bLadrillos de piedra cincelada'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Ladrillos de piedra cincelada'
+  ICON-ITEM: 98
+  DATA-VALUE: 3
+  ICON-AMOUNT: 10
+  POSITION-X: 6
+  POSITION-Y: 3
+semillas_de_sandia:
+  ACTION: 'buy: 5'
+  NAME: '&bSemilla de sandía'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&632x Semilla de sandía'
+  ICON-ITEM: 362
+  DATA-VALUE: 0
+  ICON-AMOUNT: 32
+  POSITION-X: 7
+  POSITION-Y: 3
+cubeta_con_agua:
+  ACTION: 'buy: 25'
+  NAME: '&bCubeta con agua'
+  DESCRIPTION:
+    - '&eCoins: 25'
+    - '&9Obtienes:'
+    - '&61x Cubeta con agua'
+  ICON-ITEM: 326
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 3
+libreria:
+  ACTION: 'buy: 10'
+  NAME: '&bLibrería'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Librería'
+  ICON-ITEM: 47
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 3
+huevo_de_piedra:
+  ACTION: 'buy: 5'
+  NAME: '&bHuevo de lepisma de piedra'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Huevo de lepisma de piedra'
+  ICON-ITEM: 97
+  DATA-VALUE: 0
+  ICON-AMOUNT: 10
+  POSITION-X: 1
+  POSITION-Y: 4
+huevo_de_roca:
+  ACTION: 'buy: 5'
+  NAME: '&bHuevo de lepisma de roca'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Huevo de lepisma de roca'
+  ICON-ITEM: 97
+  DATA-VALUE: 1
+  POSITION-X: 2
+  POSITION-Y: 4
+huevo_de_ladrillos_de_piedra:
+  ACTION: 'buy: 5'
+  NAME: '&bHuevo de lepisma de ladrillos de piedra'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Huevo de lepisma de ladrillos de piedra'
+  ICON-ITEM: 97
+  DATA-VALUE: 2
+  POSITION-X: 3
+  POSITION-Y: 4
+huevo_de_piedra_musgosos:
+  ACTION: 'buy: 5'
+  NAME: '&bHuevo de lepisma de piedra musgosos'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Huevo de lepisma de piedra musgosos'
+  ICON-ITEM: 97
+  DATA-VALUE: 3
+  POSITION-X: 4
+  POSITION-Y: 4
+huevo_de_ladrillos_de_piedra_agrietada:
+  ACTION: 'buy: 5'
+  NAME: '&bHuevo de lepisma de ladrillos de piedra agrietados'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Huevo de lepisma de ladrillos de piedra agrietados'
+  ICON-ITEM: 97
+  DATA-VALUE: 5
+  POSITION-X: 5
+  POSITION-Y: 4
+huevo_de_ladrillos_de_piedra_cincelada:
+  ACTION: 'buy: 5'
+  NAME: '&bHuevo de lepisma de piedra cincelada'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Huevo de lepisma de piedra cincelada'
+  ICON-ITEM: 97
+  DATA-VALUE: 6
+  POSITION-X: 6
+  POSITION-Y: 4
+semillas_de_calabaza:
+  ACTION: 'buy: 5'
+  NAME: '&bSemillas de calabaza'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&632x Semillas de calabaza'
+  ICON-ITEM: 361
+  DATA-VALUE: 0
+  ICON-AMOUNT: 32
+  POSITION-X: 7
+  POSITION-Y: 4
+antorchas:
+  ACTION: 'buy: 5'
+  NAME: '&bAntorcha'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&610x Antorcha'
+  ICON-ITEM: 50
+  DATA-VALUE: 0
+  ICON-AMOUNT: 10
+  POSITION-X: 8
+  POSITION-Y: 4
+libro:
+  ACTION: 'buy: 5'
+  NAME: '&bLibro'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Libro'
+  ICON-ITEM: 340
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 4
+
+primera:
+  ACTION: 'open: tienda_de_objetos_1.yml'
+  NAME: '&cPrimera'
+  ICON-ITEM: 160
+  DATA-VALUE: 14
+  POSITION-X: 1
+  POSITION-Y: 6
+anterior:
+  ACTION: 'open: tienda_de_objetos_1.yml'
+  NAME: '&9Anterior'
+  ICON-ITEM: 160
+  DATA-VALUE: 9
+  POSITION-X: 2
+  POSITION-Y: 6
+
+nada:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 3
+  POSITION-Y: 6
+nada2:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 4
+  POSITION-Y: 6
+nada3:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 5
+  POSITION-Y: 6
+nada4:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 6
+  POSITION-Y: 6
+nada5:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 7
+  POSITION-Y: 6
+
+
+siguiente:
+  ACTION: 'open: tienda_de_objetos_3.yml'
+  NAME: '&9Siguiente'
+  ICON-ITEM: 160
+  DATA-VALUE: 9
+  POSITION-X: 8
+  POSITION-Y: 6
+ultima:
+  ACTION: 'open: tienda_de_objetos_5.yml'
+  NAME: '&cUltima'
+  ICON-ITEM: 160
+  DATA-VALUE: 14
+  POSITION-X: 9
+  POSITION-Y: 6

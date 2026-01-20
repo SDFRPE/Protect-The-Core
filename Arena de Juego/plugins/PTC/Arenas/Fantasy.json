@@ -1,0 +1,113 @@
+{
+  "name": "Fantasy",
+  "border_size": 0.0,
+  "duration": 72000,
+  "arenaLocations": {
+    "yellowSpawn": {
+      "world": "Fantasy",
+      "x": 100.0,
+      "y": 124.0,
+      "z": 8.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "yellowCore": {
+      "world": "Fantasy",
+      "x": 100.0,
+      "y": 152.0,
+      "z": 39.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueSpawn": {
+      "world": "Fantasy",
+      "x": 192.0,
+      "y": 124.0,
+      "z": -84.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueCore": {
+      "world": "Fantasy",
+      "x": 223.0,
+      "y": 152.0,
+      "z": -84.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redSpawn": {
+      "world": "Fantasy",
+      "x": 8.0,
+      "y": 124.0,
+      "z": -84.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redCore": {
+      "world": "Fantasy",
+      "x": -23.0,
+      "y": 152.0,
+      "z": -84.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenSpawn": {
+      "world": "Fantasy",
+      "x": 100.0,
+      "y": 124.0,
+      "z": -176.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenCore": {
+      "world": "Fantasy",
+      "x": 100.0,
+      "y": 152.0,
+      "z": -207.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "centerSpawn": {
+      "world": "Fantasy",
+      "x": 100.0,
+      "y": 111.0,
+      "z": -84.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "pigsSpawn": [
+      {
+        "world": "Fantasy",
+        "x": 100.0,
+        "y": 132.0,
+        "z": 41.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "Fantasy",
+        "x": 100.0,
+        "y": 132.0,
+        "z": -209.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "Fantasy",
+        "x": -26.0,
+        "y": 132.0,
+        "z": -84.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "Fantasy",
+        "x": 225.0,
+        "y": 132.0,
+        "z": -84.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      }
+    ]
+  }
+}

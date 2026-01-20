@@ -1,0 +1,483 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&rTienda de objetos - Pagína 3/5'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: ''
+
+  # permissionView - MATERIAL NAME - DATA
+  permissionView:
+    ICON-VIEW: true
+    ICON-ITEM: 'SIGN'
+    DATA-VALUE: 0
+    DESCRIPTION:
+      - ''
+      - ' &a▸ &fYou currently do not have'
+      - ' &a▸ &fpermission to do this'
+      - ''
+dispensador:
+  ACTION: 'buy: 10'
+  NAME: '&bDispensador'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Dispensador'
+  ICON-ITEM: 23
+  DATA-VALUE: 0
+  POSITION-X: 1
+  POSITION-Y: 1
+bloques_de_notas:
+  ACTION: 'buy: 10'
+  NAME: '&bBloques de notas'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Bloques de notas'
+  ICON-ITEM: 25
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 1
+tnt:
+  ACTION: 'buy: 50'
+  NAME: '&bTNT'
+  DESCRIPTION:
+    - '&eCoins: 50'
+    - '&9Obtienes:'
+    - '&61x TNT'
+  ICON-ITEM: 46
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 1
+palanca:
+  ACTION: 'buy: 5'
+  NAME: '&bPalanca'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&65x Palanca'
+  ICON-ITEM: 69
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 6
+  POSITION-Y: 1
+placa_de_presion_de_piedra:
+  ACTION: 'buy: 5'
+  NAME: '&bPlaca de presión de piedra'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&65x Placa de presión de piedra'
+  ICON-ITEM: 70
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 7
+  POSITION-Y: 1
+placa_de_presion_de_madera:
+  ACTION: 'buy: 5'
+  NAME: '&bPlaca de presión de madera'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&65x Placa de presión de madera'
+  ICON-ITEM: 72
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 8
+  POSITION-Y: 1
+antorcha_de_redstone:
+  ACTION: 'buy: 5'
+  NAME: '&bAntorcha de redstone'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&65x Antorcha de redstone'
+  ICON-ITEM: 76
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 9
+  POSITION-Y: 1
+boton_de_piedra:
+  ACTION: 'buy: 5'
+  NAME: '&bBoton de piedra'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&65x Botón de piedra'
+  ICON-ITEM: 77
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 1
+  POSITION-Y: 2
+trampilla_de_madera:
+  ACTION: 'buy: 5'
+  NAME: '&bTrampilla de madera'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&65x Trampilla de madera'
+  ICON-ITEM: 96
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 2
+  POSITION-Y: 2
+puerta_de_valla:
+  ACTION: 'buy: 5'
+  NAME: '&bPuerta de valla'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Puerta de valla'
+  ICON-ITEM: 107
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 2
+lampara_de_restone:
+  ACTION: 'buy: 5'
+  NAME: '&bLampara de redstone'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&65x Lampara de redstone'
+  ICON-ITEM: 123
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+gancho_para_hilo:
+  ACTION: 'buy: 5'
+  NAME: '&bGancho para hilo'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Gancho para hilo'
+  ICON-ITEM: 131
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 2
+boton_de_madera:
+  ACTION: 'buy: 5'
+  NAME: '&bBotón de madera'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&65x Botón de madera'
+  ICON-ITEM: 143
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 6
+  POSITION-Y: 2
+placa_de_presion_de_oro:
+  ACTION: 'buy: 5'
+  NAME: '&bPlaca de presión de oro'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&65x Placa de presión de oro'
+  ICON-ITEM: 147
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 7
+  POSITION-Y: 2
+placa_de_presion_de_hierro:
+  ACTION: 'buy: 5'
+  NAME: '&bPlaca de presión de hierro'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&65x Placa de presión de hierro'
+  ICON-ITEM: 148
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 8
+  POSITION-Y: 2
+sensor_de_luz:
+  ACTION: 'buy: 5'
+  NAME: '&bSensor de luz'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Sensor de luz'
+  ICON-ITEM: 151
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 2
+bloque_de_redstone:
+  ACTION: 'buy: 5'
+  NAME: '&bBloque de redstone'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Bloque de redstone'
+  ICON-ITEM: 152
+  DATA-VALUE: 0
+  POSITION-X: 1
+  POSITION-Y: 3
+tolva:
+  ACTION: 'buy: 5'
+  NAME: '&bTolva'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Bloque de redstone'
+  ICON-ITEM: 154
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 3
+dropper:
+  ACTION: 'buy: 10'
+  NAME: '&bDropper'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Dropper'
+  ICON-ITEM: 158
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 3
+puerta_de_roble:
+  ACTION: 'buy: 5'
+  NAME: '&bPuerta de roble'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Puerta de roble'
+  ICON-ITEM: 64
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 3
+puerta_de_hierro:
+  ACTION: 'buy: 5'
+  NAME: '&bPuerta de hierro'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Puerta de hierro'
+  ICON-ITEM: 71
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 3
+puerta_de_redstone:
+  ACTION: 'buy: 10'
+  NAME: '&bRedstone'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&65x Redstone'
+  ICON-ITEM: 331
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 6
+  POSITION-Y: 3
+repetidor_de_redstone:
+  ACTION: 'buy: 5'
+  NAME: '&bRedstone'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Redstone'
+  ICON-ITEM: 356
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 3
+comparador_de_redstone:
+  ACTION: 'buy: 5'
+  NAME: '&bComparador de redstone'
+  DESCRIPTION:
+    - '&eCoins: 5'
+    - '&9Obtienes:'
+    - '&61x Comparador de redstone'
+  ICON-ITEM: 404
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 3
+mapa_vacio:
+  ACTION: 'buy: 15'
+  NAME: '&bMapa vacío'
+  DESCRIPTION:
+    - '&eCoins: 15'
+    - '&9Obtienes:'
+    - '&61x Mapa vacío'
+  ICON-ITEM: 395
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 3
+riel_impulsador:
+  ACTION: 'buy: 10'
+  NAME: '&bRiel impulsador'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&65x Riel impulsador'
+  ICON-ITEM: 27
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 1
+  POSITION-Y: 4
+riel_detector:
+  ACTION: 'buy: 10'
+  NAME: '&bRiel detector'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&65x Riel detector'
+  ICON-ITEM: 28
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 2
+  POSITION-Y: 4
+riel:
+  ACTION: 'buy: 10'
+  NAME: '&bRiel'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&65x Riel'
+  ICON-ITEM: 66
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 3
+  POSITION-Y: 4
+riel_acivador:
+  ACTION: 'buy: 10'
+  NAME: '&bRiel activador'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&65x Riel activador'
+  ICON-ITEM: 157
+  DATA-VALUE: 0
+  ICON-AMOUNT: 5
+  POSITION-X: 4
+  POSITION-Y: 4
+vagoneta:
+  ACTION: 'buy: 10'
+  NAME: '&bVagoneta'
+  DESCRIPTION:
+    - '&eCoins: 10'
+    - '&9Obtienes:'
+    - '&61x Vagoneta'
+  ICON-ITEM: 328
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 4
+vagoneta_con_cofre:
+  ACTION: 'buy: 15'
+  NAME: '&bVagoneta con cofre'
+  DESCRIPTION:
+    - '&eCoins: 15'
+    - '&9Obtienes:'
+    - '&61x Vagoneta con cofre'
+  ICON-ITEM: 342
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 4
+vagoneta_con_horno:
+  ACTION: 'buy: 15'
+  NAME: '&bVagoneta con horno'
+  DESCRIPTION:
+    - '&eCoins: 15'
+    - '&9Obtienes:'
+    - '&61x Vagoneta con horno'
+  ICON-ITEM: 343
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 4
+vagoneta_con_tnt:
+  ACTION: 'buy: 15'
+  NAME: '&bVagoneta con TNT'
+  DESCRIPTION:
+    - '&eCoins: 15'
+    - '&9Obtienes:'
+    - '&61x Vagoneta con TNT'
+  ICON-ITEM: 407
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 4
+vagoneta_con_tolva:
+  ACTION: 'buy: 15'
+  NAME: '&bVagoneta con tolva'
+  DESCRIPTION:
+    - '&eCoins: 15'
+    - '&9Obtienes:'
+    - '&61x Vagoneta con tolva'
+  ICON-ITEM: 154
+  DATA-VALUE: 0
+  POSITION-X: 9
+  POSITION-Y: 4
+
+primera:
+  ACTION: 'open: tienda_de_objetos_1.yml'
+  NAME: '&cPrimera'
+  ICON-ITEM: 160
+  DATA-VALUE: 14
+  POSITION-X: 1
+  POSITION-Y: 6
+anterior:
+  ACTION: 'open: tienda_de_objetos_2.yml'
+  NAME: '&9Anterior'
+  ICON-ITEM: 160
+  DATA-VALUE: 9
+  POSITION-X: 2
+  POSITION-Y: 6
+
+nada:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 3
+  POSITION-Y: 6
+nada2:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 4
+  POSITION-Y: 6
+nada3:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 5
+  POSITION-Y: 6
+nada4:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 6
+  POSITION-Y: 6
+nada5:
+  ACTION: ''
+  NAME: ''
+  ICON-ITEM: 160
+  DATA-VALUE: 7
+  POSITION-X: 7
+  POSITION-Y: 6
+
+
+siguiente:
+  ACTION: 'open: tienda_de_objetos_4.yml'
+  NAME: '&9Suguiente'
+  ICON-ITEM: 160
+  DATA-VALUE: 9
+  POSITION-X: 8
+  POSITION-Y: 6
+ultima:
+  ACTION: 'open: tienda_de_objetos_5.yml'
+  NAME: '&cUltima'
+  ICON-ITEM: 160
+  DATA-VALUE: 14
+  POSITION-X: 9
+  POSITION-Y: 6

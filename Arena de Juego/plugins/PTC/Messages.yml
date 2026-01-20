@@ -1,0 +1,56 @@
+Format:
+  fall:
+    inflicted: "{dead} &bmurio por caida intentando matar a {killer}"
+    other: "{dead}&b se estrelló contra el suelo"
+  explosion:
+    inflicted: "{dead}&b exploto luchando contra {killer}"
+    other: "{dead}&B exploto en un millón de piezas"
+  cactus:
+    inflicted: "{dead}&B fue empujado a un millón de espinas por {killer}"
+    other: "{dead}&B abrazó a un cactus"
+  drown:
+    inflicted: "{dead}&b se ahogó luchando contra {killer}"
+    other: "{dead}&b nadie le dio un tanque de oxígeno y se ahogó"
+  fire:
+    inflicted: "{dead}&b murio insinerado luchando contra {killer}"
+    other: "{dead}&b ardió en llamas"
+  lava:
+    inflicted: "{dead}&b cayó en un charco de lava mientras luchaba contra {killer}"
+    other: "{dead}&b cayó en un charco de lava"
+  lightning:
+    inflicted: "{dead}&b murio por un rayo de {killer}"
+    other: "{dead}&b murio por un rayo"
+  melting:
+    inflicted: "{dead} melted while fighting {killer}"
+    other: "{dead} melted"
+  projectile:
+    inflicted: "{dead}&b fue asesinado con una flecha de {killer}"
+    other: "{dead}&b murio por una flecha perdida.."
+  starvation:
+    inflicted: "{dead}&b se murio de hambre mientras luchaba contra {killer}"
+    other: "{dead}&b se murio de hambre"
+  suffocation:
+    inflicted: "{dead}&b fue empujado a una pared mientras luchaba {killer}"
+    other: "{dead}&b se metio a una pared y se ahogó"
+  suicide:
+    inflicted: "{dead}&b se suicidó mientras luchaba {killer}"
+    other: "{dead}&b cometió suicidio"
+  thorns:
+    inflicted: "{dead}&b fue pinchado hasta su muerte por {killer}"
+    other: "{dead}&b se pincho hasta morir"
+  void:
+    inflicted: "{killer}&b empujo al vacío a {dead}"
+    other: "{dead}&b cayo en una gran grieta"
+  wither:
+    inflicted: "{dead} withered away while fighting {killer}"
+    other: "{dead} withered away"
+  potion:
+    inflicted: "{dead}&b murio en manos de {killer} utilizando magia"
+    other: "{dead}&b murio por fuerzas misteriosas"
+  entity-attack:
+    inflicted: "{dead}&b murio en manos de {killer}"
+    other: "{dead}&b murio sin mas"
+  player-attack:
+    inflicted: "{dead}&b murio en manos de {killer}"
+    other: "{dead}&b murio sin mas"
+  other: "{dead}&b murio de forma extraña"

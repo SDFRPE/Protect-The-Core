@@ -1,0 +1,115 @@
+{
+  "name": "Pyramid",
+  "border_size": 0.0,
+  "duration": 72000,
+  "timeOfDay": "DAY",
+  "extraHearts": 0,
+  "arenaLocations": {
+    "yellowSpawn": {
+      "world": "Pyramid",
+      "x": -416.0,
+      "y": 78.0,
+      "z": -320.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "yellowCore": {
+      "world": "Pyramid",
+      "x": -416.0,
+      "y": 79.0,
+      "z": -304.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueSpawn": {
+      "world": "Pyramid",
+      "x": -528.0,
+      "y": 78.0,
+      "z": -432.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueCore": {
+      "world": "Pyramid",
+      "x": -544.0,
+      "y": 79.0,
+      "z": -432.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redSpawn": {
+      "world": "Pyramid",
+      "x": -304.0,
+      "y": 78.0,
+      "z": -432.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redCore": {
+      "world": "Pyramid",
+      "x": -288.0,
+      "y": 79.0,
+      "z": -432.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenSpawn": {
+      "world": "Pyramid",
+      "x": -416.0,
+      "y": 78.0,
+      "z": -544.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenCore": {
+      "world": "Pyramid",
+      "x": -416.0,
+      "y": 79.0,
+      "z": -560.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "centerSpawn": {
+      "world": "Pyramid",
+      "x": -416.0,
+      "y": 82.0,
+      "z": -432.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "pigsSpawn": [
+      {
+        "world": "Pyramid",
+        "x": -263.0,
+        "y": 76.0,
+        "z": -432.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "Pyramid",
+        "x": -416.0,
+        "y": 76.0,
+        "z": -279.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "Pyramid",
+        "x": -569.0,
+        "y": 76.0,
+        "z": -433.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "Pyramid",
+        "x": -416.0,
+        "y": 76.0,
+        "z": -586.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      }
+    ]
+  }
+}

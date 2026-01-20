@@ -1,0 +1,115 @@
+{
+  "name": "ClasicaV2.0",
+  "border_size": 0.0,
+  "duration": 72000,
+  "timeOfDay": "DAY",
+  "extraHearts": 0,
+  "arenaLocations": {
+    "yellowSpawn": {
+      "world": "ClasicaV2.0",
+      "x": 25.0,
+      "y": 80.0,
+      "z": -570.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "yellowCore": {
+      "world": "ClasicaV2.0",
+      "x": -51.0,
+      "y": 90.0,
+      "z": -570.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueSpawn": {
+      "world": "ClasicaV2.0",
+      "x": 119.0,
+      "y": 80.0,
+      "z": -664.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "blueCore": {
+      "world": "ClasicaV2.0",
+      "x": 119.0,
+      "y": 90.0,
+      "z": -740.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redSpawn": {
+      "world": "ClasicaV2.0",
+      "x": 119.0,
+      "y": 80.0,
+      "z": -476.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "redCore": {
+      "world": "ClasicaV2.0",
+      "x": 119.0,
+      "y": 90.0,
+      "z": -400.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenSpawn": {
+      "world": "ClasicaV2.0",
+      "x": 213.0,
+      "y": 80.0,
+      "z": -570.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "greenCore": {
+      "world": "ClasicaV2.0",
+      "x": 289.0,
+      "y": 90.0,
+      "z": -570.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "centerSpawn": {
+      "world": "ClasicaV2.0",
+      "x": 119.0,
+      "y": 55.0,
+      "z": -570.0,
+      "pitch": 0.0,
+      "yaw": 0.0
+    },
+    "pigsSpawn": [
+      {
+        "world": "ClasicaV2.0",
+        "x": 227.0,
+        "y": 78.0,
+        "z": -570.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "ClasicaV2.0",
+        "x": 119.0,
+        "y": 78.0,
+        "z": -678.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "ClasicaV2.0",
+        "x": 11.0,
+        "y": 78.0,
+        "z": -570.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      },
+      {
+        "world": "ClasicaV2.0",
+        "x": 119.0,
+        "y": 78.0,
+        "z": -462.0,
+        "pitch": 0.0,
+        "yaw": 0.0
+      }
+    ]
+  }
+}

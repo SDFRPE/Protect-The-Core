@@ -1,0 +1,81 @@
+designs:
+
+  # ========================================
+  # ALL-TIME (PERMANENTES)
+  # ========================================
+
+  WINS_ALLTIME:
+    title: '&6&lTOP 10 &8| &e&lVICTORIAS'
+    entry-format: '&e#{position} &6| &f{player} &8> &a{value}'
+    spacing: 0.38
+
+  KILLS_ALLTIME:
+    title: '&6&lTOP 10 &8| &c&lASESINATOS'
+    entry-format: '&c#{position} &4| &f{player} &8> &c{value}'
+    spacing: 0.38
+
+  DEATHS_ALLTIME:
+    title: '&6&lTOP 10 &8| &4&lMUERTES'
+    entry-format: '&4#{position} &8| &f{player} &8> &4{value}'
+    spacing: 0.38
+
+  CORES_ALLTIME:
+    title: '&6&lTOP 10 &8| &6&lNUCLEOS'
+    entry-format: '&6#{position} &e| &f{player} &8> &6{value}'
+    spacing: 0.38
+
+  DOMINATION_ALLTIME:
+    title: '&6&lTOP 10 &8| &d&lDOMINACION'
+    entry-format: '&d#{position} &5| &f{player} &8> &d{value}'
+    spacing: 0.38
+
+  CLAN_LEVEL:
+    title: '&6&lTOP 10 &8| &b&lCLANES'
+    entry-format: '&b#{position} &3| &b[{clan}] &f{player} &8> &bLv {value}'
+    entry-format-no-clan: '&b#{position} &3| &f{player} &8> &bLv {value}'
+    spacing: 0.38
+
+  BEST_KILLSTREAK:
+    title: '&6&lTOP 10 &8| &4&lMEJOR RACHA'
+    entry-format: '&4#{position} &c| &f{player} &8> &4{value}'
+    spacing: 0.38
+
+  PLAYTIME_ALLTIME:
+    title: '&6&lTOP 10 &8| &a&lTIEMPO JUGADO'
+    entry-format: '&a#{position} &2| &f{player} &8> &a{value}'
+    spacing: 0.38
+
+
+  # ========================================
+  # WEEKLY (SEMANALES)
+  # ========================================
+
+  WINS_WEEKLY:
+    title: '&e&lTOP SEMANAL &8| &e&lVICTORIAS'
+    entry-format: '&e#{position} &6| &f{player} &8> &a{value}'
+    spacing: 0.38
+
+  KILLS_WEEKLY:
+    title: '&e&lTOP SEMANAL &8| &c&lASESINATOS'
+    entry-format: '&c#{position} &4| &f{player} &8> &c{value}'
+    spacing: 0.38
+
+  DEATHS_WEEKLY:
+    title: '&e&lTOP SEMANAL &8| &4&lMUERTES'
+    entry-format: '&4#{position} &8| &f{player} &8> &4{value}'
+    spacing: 0.38
+
+  CORES_WEEKLY:
+    title: '&e&lTOP SEMANAL &8| &6&lNUCLEOS'
+    entry-format: '&6#{position} &e| &f{player} &8> &6{value}'
+    spacing: 0.38
+
+  DOMINATION_WEEKLY:
+    title: '&e&lTOP SEMANAL &8| &d&lDOMINACION'
+    entry-format: '&d#{position} &5| &f{player} &8> &d{value}'
+    spacing: 0.38
+
+  PLAYTIME_WEEKLY:
+    title: '&e&lTOP SEMANAL &8| &a&lTIEMPO JUGADO'
+    entry-format: '&a#{position} &2| &f{player} &8> &a{value}'
+    spacing: 0.38
