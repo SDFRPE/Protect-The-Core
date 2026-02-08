@@ -7,7 +7,7 @@ const { MongoClient } = require('mongodb');
 
 const app = express();
 // CONFIGURACIÓN: Cambia el puerto según tus necesidades
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const DATA_DIR = path.join(__dirname, 'data');
 const CLANS_DIR = path.join(__dirname, 'clans');
 const WARS_DIR = path.join(__dirname, 'wars');
